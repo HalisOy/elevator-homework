@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+}
+.elevator-div{
+    width: 50%;
+    height: 100vh;
+    background-color: aqua;
+}
+.elevator-number-div{
+    width: 50%;
+    height: 100vh;
+    background-color: bisque;
+}
+.elevator-number{
+    display: flex;
+    align-items: center;
+}
+
+.elevator-btn{
+    cursor: pointer;
+    &.active{
+        color: red;
+        cursor: default;
+    }
+    &.passive{
+        color: black;
+    }
+}
+
+.floor-div{
+    display: flex;
+    align-items: center;
+}
